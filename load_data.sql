@@ -1,0 +1,2 @@
+USE bikes;
+LOAD DATA LOCAL INFILE 'tmp.csv' INTO TABLE bike_locations COLUMNS TERMINATED BY ',' ENCLOSED BY '"';
